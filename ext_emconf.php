@@ -1,13 +1,13 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext: "coago"
+# Extension Manager/Repository config file for ext "cobjcache".
 #
-# Auto generated 11-11-2009 13:06
+# Auto generated 20-02-2012 23:10
 #
 # Manual updates:
-# Only the data in the array - anything else is removed by next write.
-# "version" and "dependencies" must not be touched!
+# Only the data in the array - everything else is removed by next
+# writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
@@ -34,7 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '4.5.0-',
+			'typo3' => '4.5.0-0.0.0',
 		),
 		'conflicts' => array(
 		),
@@ -43,7 +43,7 @@ $EM_CONF[$_EXTKEY] = array(
 	),
 	'suggests' => array(
 	),
-	'_md5_values_when_last_written' => 'a:13:{s:13:"ChangeLog.php";s:4:"290d";s:18:"class.tx_coago.php";s:4:"8b81";s:23:"class.tx_coagohooks.php";s:4:"ac2a";s:21:"ext_conf_template.txt";s:4:"4532";s:12:"ext_icon.gif";s:4:"bc2e";s:17:"ext_localconf.php";s:4:"05ee";s:14:"ext_tables.php";s:4:"04f4";s:14:"doc/manual.sxw";s:4:"6a33";s:21:"doc/readme_coa_go.gif";s:4:"d09c";s:27:"misc/class.tx_coago_mod.php";s:4:"8b68";s:14:"res/ajax/1.gif";s:4:"7b97";s:20:"static/constants.txt";s:4:"8638";s:16:"static/setup.txt";s:4:"4d39";}',
+	'_md5_values_when_last_written' => 'a:2:{s:22:"class.tx_cobjcache.php";s:4:"cb29";s:17:"ext_localconf.php";s:4:"1457";}',
 );
 
 ?>
